@@ -1,0 +1,5 @@
+build
+coverage
+dist
+.next
+node_modules
