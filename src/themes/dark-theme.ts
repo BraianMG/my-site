@@ -6,14 +6,11 @@ export const darkTheme: Theme = createTheme({
     primary: {
       main: '#F5BA4B',
     },
-    text: {
-      primary: '#F5BA4B'
-    },
-    secondary: {
-      main: '#3A64D8',
-    },
-    info: {
-      main: '#fff',
-    },
+    // secondary: {
+    //   main: '#212529',
+    // },
+    // info: {
+    //   main: '#fff',
+    // },
   },
 })

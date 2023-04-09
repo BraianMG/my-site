@@ -13,6 +13,17 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #212529;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #f5ba4b;
+  border-radius: 10px;
+  border-right: 2px solid #212529;
+}
+
 li {
   list-style: none;
 }
