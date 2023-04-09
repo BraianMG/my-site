@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import { AppBar, Box, Button, IconButton, Link, Toolbar } from '@mui/material'
 import { Menu as MenuIcon } from '@mui/icons-material'
 import { navItems } from '@/libs/constants'
@@ -13,11 +12,9 @@ export const Navbar = () => {
   return (
     <AppBar component='nav'>
       <Toolbar>
-        <NextLink href='#' passHref>
-          <Link display='flex' alignItems='center'>
-            <Image src={logo} alt='BMG logo' height={40} />
-          </Link>
-        </NextLink>
+        <Link href='#' display='flex' alignItems='center'>
+          <Image src={logo} alt='BMG logo' height={40} priority />
+        </Link>
 
         <Box flex={1} />
 

@@ -1,6 +1,8 @@
 import { Theme, createTheme } from '@mui/material'
+import { baseTheme } from './base-theme'
 
 export const lightTheme: Theme = createTheme({
+  ...baseTheme,
   palette: {
     mode: 'light',
     // primary: {
