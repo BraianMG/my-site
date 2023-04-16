@@ -27,6 +27,8 @@ export const Layout: FC<Props> = ({
         <meta name='og:title' content={title} />
         <meta name='og:description' content={pageDescription} />
         {imageFullUrl && <meta name='og:image' content={imageFullUrl} />}
+
+        <link rel='shortcut icon' type='image/PNG' href='/img/favicon.png' />
       </Head>
 
       <Navbar />
