@@ -2,11 +2,12 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { createContext } from 'react'
 import { UiProvider } from '@/context/ui'
+import { appWithTranslation } from 'next-i18next'
 import { ThemeProvider as PreferredThemeProvider } from 'next-themes'
 
 export const ColorModeContext = createContext({ toggleColorMode: () => {} })
 
-export default function App({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <PreferredThemeProvider>
       <UiProvider>
@@ -15,3 +16,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </PreferredThemeProvider>
   )
 }
+
+export default appWithTranslation(App)

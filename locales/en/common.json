@@ -1,0 +1,11 @@
+{
+  "loading": "Loading",
+  "SPANISH": "ES",
+  "ENGLISH": "EN",
+  "aboutMe": "About me",
+  "skills": "Skills",
+  "qualifications": "Qualifications",
+  "projects": "Projects",
+  "contact": "Contact",
+  "variable-example": "Using a variable {{count}}"
+}

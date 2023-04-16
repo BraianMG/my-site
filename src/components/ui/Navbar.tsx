@@ -5,8 +5,11 @@ import { useUI } from '@/hooks/useUI'
 import Image from 'next/image'
 import logo from '../../../public/img/logo.png'
 import ToggleTheme from './ToggleTheme'
+import useTranslation from 'next-translate/useTranslation'
+import { LanguageSelector } from '../common/LanguageSelector'
 
 export const Navbar = () => {
+  const { t } = useTranslation('common')
   const { toggleSideMenu } = useUI()
 
   return (
@@ -26,9 +29,10 @@ export const Navbar = () => {
               href={item.href}
               sx={{ color: '#fff', textTransform: 'none' }}
             >
-              {item.name}
+              {t(item.name)}
             </Button>
           ))}
+          <LanguageSelector />
           <ToggleTheme />
         </Box>
 

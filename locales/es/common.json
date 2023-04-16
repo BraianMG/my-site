@@ -1,0 +1,11 @@
+{
+  "loading": "Cargando",
+  "SPANISH": "ES",
+  "ENGLISH": "EN",
+  "aboutMe": "Sobre mi",
+  "skills": "Habilidades",
+  "qualifications": "Calificaciones",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "variable-example": "Using a variable {{count}}"
+}

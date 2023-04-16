@@ -11,8 +11,10 @@ import { navItems } from '@/libs/constants'
 import { useUI } from '@/hooks/useUI'
 import { Close as CloseIcon } from '@mui/icons-material'
 import ToggleTheme from './ToggleTheme'
+import useTranslation from 'next-translate/useTranslation'
 
 export const SideMenu = () => {
+  const { t } = useTranslation('common')
   const { isMenuOpen, toggleSideMenu } = useUI()
 
   return (
@@ -42,7 +44,7 @@ export const SideMenu = () => {
                   sx={{ textAlign: 'center' }}
                   onClick={toggleSideMenu}
                 >
-                  <ListItemText primary={item.name} />
+                  <ListItemText primary={t(item.name)} />
                 </ListItemButton>
               </ListItem>
             ))}

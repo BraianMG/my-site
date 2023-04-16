@@ -5,9 +5,14 @@ export const THEME = {
 }
 
 export const navItems = [
-  { name: 'About me', href: '#about-me' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Qualifications', href: '#qualifications' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Contact me', href: '#contact-me' },
+  { name: 'aboutMe', href: '#about-me' },
+  { name: 'skills', href: '#skills' },
+  { name: 'qualifications', href: '#qualifications' },
+  { name: 'projects', href: '#projects' },
+  { name: 'contact', href: '#contact-me' },
+]
+
+export const languages = [
+  { value: 'es', name: 'SPANISH' },
+  { value: 'en', name: 'ENGLISH' },
 ]
