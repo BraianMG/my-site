@@ -12,6 +12,7 @@ import { useUI } from '@/hooks/useUI'
 import { Close as CloseIcon } from '@mui/icons-material'
 import ToggleTheme from './ToggleTheme'
 import useTranslation from 'next-translate/useTranslation'
+import { LanguageSelector } from '../common/LanguageSelector'
 
 export const SideMenu = () => {
   const { t } = useTranslation('common')
@@ -48,6 +49,13 @@ export const SideMenu = () => {
                 </ListItemButton>
               </ListItem>
             ))}
+
+            <ListItem
+              disablePadding
+              sx={{ width: '100%', justifyContent: 'center' }}
+            >
+              <LanguageSelector />
+            </ListItem>
 
             <ListItem disablePadding>
               <ListItemIcon sx={{ width: '100%', justifyContent: 'center' }}>
