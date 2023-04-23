@@ -1,0 +1,48 @@
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5em;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+    a{
+        margin: 10px;
+    }
+}
+
+.copy {
+    // color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
