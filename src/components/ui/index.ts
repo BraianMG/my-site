@@ -1,5 +1,5 @@
 export * from '../footer/Footer'
-export * from './FullScreenLoading'
+export * from '../fullScreenLoading/FullScreenLoading'
 export * from '../navbar/Navbar'
 export * from './SideMenu'
 export * from './ToggleTheme'
