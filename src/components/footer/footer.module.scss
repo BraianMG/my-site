@@ -13,9 +13,8 @@
 }
 
 .links {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 
     a {
         text-transform: none;
@@ -37,6 +36,12 @@
     padding: 10px 0;
 }
 
+@media (min-width: 500px) {
+    .links {
+        flex-direction: row;
+        align-items: center;
+    }
+}
 @media (min-width: 768px) {
     .content {
         flex-direction: row;
