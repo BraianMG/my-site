@@ -10,13 +10,13 @@ export const Objective = localFont({
     },
     {
       path: '../fonts/Objective-Medium.woff2',
-      weight: '400',
-      style: 'italic',
+      weight: '500',
+      style: 'medium',
     },
     {
       path: '../fonts/Objective-Bold.woff2',
       weight: '700',
-      style: 'normal',
+      style: 'bold',
     },
   ],
 })

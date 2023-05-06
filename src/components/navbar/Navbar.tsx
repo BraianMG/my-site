@@ -17,6 +17,7 @@ import ToggleTheme from '../ui/ToggleTheme'
 import useTranslation from 'next-translate/useTranslation'
 import { LanguageSelector } from '../common/LanguageSelector'
 import type { FC, PropsWithChildren, ReactElement } from 'react'
+import styles from './navbar.module.scss'
 
 interface Props {
   children: ReactElement
@@ -39,7 +40,7 @@ export const Navbar: FC<PropsWithChildren> = props => {
   return (
     <HideOnScroll>
       <AppBar component='nav'>
-        <Toolbar>
+        <Toolbar className={styles.toolbar}>
           <Link href='#' display='flex' alignItems='center'>
             <Image src={logo} alt='BMG logo' height={40} priority />
           </Link>

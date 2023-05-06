@@ -1,5 +1,5 @@
 import React from 'react'
-import { BMGSelect } from '../ui'
+import { BMGSelect } from '..'
 import { languages } from '@/libs/constants'
 import { useRouter } from 'next/router'
 import { SelectChangeEvent } from '@mui/material'

@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next'
 import { Layout } from '../components/layout/Layout'
-import { FullScreenLoading } from '../components/ui'
+import { FullScreenLoading } from '../components'
 import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {

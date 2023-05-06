@@ -1,6 +1,0 @@
-export * from '../footer/Footer'
-export * from '../fullScreenLoading/FullScreenLoading'
-export * from '../navbar/Navbar'
-export * from './SideMenu'
-export * from './ToggleTheme'
-export * from './BMGSelect'
