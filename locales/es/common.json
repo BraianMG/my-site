@@ -10,6 +10,19 @@
   "contact": "Contacto",
   "title": "Desarrollador Full Stack",
 
+  "aboutMeDescription": [
+    "Extremadamente motivado en desarrollar constantemente mis habilidades y crecer profesionalmente como Desarrollador Full Stack en los paradigmas de programación orientada a objetos y funcional.",
+    "Soy una persona proactiva, muy resolutivo, apasionada por la programación y siempre busco dar un poco más cada día.",
+    "Confío en mi capacidad de aprender y generar ideas interesantes.",
+    "Gran capacidad de trabajo bajo presión y multitarea.",
+    "Excelente trabajo en un ambiente de equipo, así como de forma individual",
+    "Capacidad de seguir instrucciones y ofrecer resultados de calidad."
+  ],
+  "yearsExperience": "Años de experiencia",
+  "completedProjects": "Proyectos completados",
+  "companiesWorked": "Empresas donde trabajé",
+  "downloadCV": "Descargar CV",
+
   "whatsAppMessage": "Escribe%20tu%20pregunta,%20te%20responderé%20a%20la%20brevedad.",
   "copyright": "© BMG. Todos los derechos reservados.",
 

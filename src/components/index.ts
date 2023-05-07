@@ -1,3 +1,6 @@
+export * from './aboutMe/AboutMe'
+export * from './common/BMGButton'
+export * from './common/SectionTitle'
 export * from './footer/Footer'
 export * from './fullScreenLoading/FullScreenLoading'
 export * from './header/Header'

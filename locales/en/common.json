@@ -10,6 +10,19 @@
   "contact": "Contact",
   "title": "Full Stack Developer",
 
+  "aboutMeDescription": [
+    "Extremely motivated to constantly develop my skills and grow professionally as a Full Stack Developer in the Object Oriented and Functional programming paradigms.",
+    "I am a proactive person, very decisive, passionate about programming and I always seek to give a little more every day.",
+    "I am confident in my ability to learn and generate interesting ideas.",
+    "Great ability to work under pressure and multitask.",
+    "Excellent work in a team environment, as well as independently.",
+    "Ability to follow instructions and deliver quality results."
+  ],
+  "yearsExperience": "Years experience",
+  "completedProjects": "Completed projects",
+  "companiesWorked": "Companies worked",
+  "downloadCV": "Download CV",
+
   "whatsAppMessage": "Write%20your%20question,%20I%20will%20answer%20you%20shortly.",
   "copyright": "© BMG. All right reserved.",
 

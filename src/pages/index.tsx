@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next'
 import { Layout } from '../components/layout/Layout'
-import { FullScreenLoading } from '../components'
+import { AboutMe, FullScreenLoading } from '../components'
 import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {
@@ -9,7 +9,8 @@ const Home: NextPage = () => {
   return (
     <Layout title='BMG' pageDescription={t('pageDescription')}>
       <>
-        CONTENT NOT IMPLEMENTED
+        <AboutMe />
+        <p>CONTENT NOT IMPLEMENTED</p>
         <FullScreenLoading />
       </>
     </Layout>

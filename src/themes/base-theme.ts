@@ -28,7 +28,7 @@ export const SFSportsNightNSAlternate = localFont({
 export const baseTheme: Theme = createTheme({
   typography: {
     allVariants: {
-        ...Objective.style
-    }
-  }
+      ...Objective.style,
+    },
+  },
 })

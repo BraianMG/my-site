@@ -45,7 +45,12 @@ export const UiProvider: FC<Props> = ({ children }) => {
     <ThemeProvider theme={currentTheme}>
       <CssBaseline />
       <UiContext.Provider
-        value={{ ...state, theme: resolvedTheme, toggleTheme, toggleSideMenu }}
+        value={{
+          ...state,
+          theme: resolvedTheme,
+          toggleTheme,
+          toggleSideMenu,
+        }}
       >
         {children}
       </UiContext.Provider>
