@@ -5,6 +5,7 @@ import useTranslation from 'next-translate/useTranslation'
 import SectionTitle from '../common/SectionTitle'
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined'
 import BMGButton from '../common/BMGButton'
+import BMGSection from '../common/BMGSection'
 
 export const AboutMe = () => {
   const { t, lang } = useTranslation('common')
@@ -17,7 +18,7 @@ export const AboutMe = () => {
   }
 
   return (
-    <Box component='section' id='about-me' className={styles.container}>
+    <BMGSection id='about-me' className={styles.container}>
       <SectionTitle>{t('aboutMe')}</SectionTitle>
       <Box>
         <Typography variant='body1'>{t('aboutMeDescription.0')}</Typography>
@@ -57,6 +58,6 @@ export const AboutMe = () => {
           {t('downloadCV')}
         </BMGButton>
       </Box>
-    </Box>
+    </BMGSection>
   )
 }

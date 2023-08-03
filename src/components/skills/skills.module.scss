@@ -1,0 +1,36 @@
+.accordions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.subtitle {
+  margin-bottom: 1rem !important;
+}
+
+.column {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .accordions {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 425px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}

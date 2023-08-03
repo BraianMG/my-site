@@ -16,3 +16,14 @@ export const languages = [
   { value: 'es', name: 'SPANISH' },
   { value: 'en', name: 'ENGLISH' },
 ]
+
+export const TECHNOLOGIES = {
+  FRONTEND: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'ReactJS', 'NextJS'],
+  BACKEND: ['NodeJS', 'Express', 'NestJS', 'RESTful', 'GraphQL'],
+  DATABASE: ['Microsoft SQL Server', 'PostgreSQL', 'MySQL', 'MongoDB', 'TypeORM', 'Sequelize'],
+  TESTING: ['Jest', 'Testing Library', 'Supertest'],
+  VERSION_CONTROL: ['Git', 'GitHub', 'GitLab'],
+  OPERATIVE_SYSTEM: ['Windows', 'Linux', 'Mac'],
+  TOOLS: ['SCRUM', 'Kanban', 'Jira', 'Confluence'],
+  LANGUAJES: ['Español', 'Inglés'],
+}

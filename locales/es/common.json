@@ -23,6 +23,16 @@
   "companiesWorked": "Empresas donde trabajé",
   "downloadCV": "Descargar CV",
 
+  "skillsSubtitle": "Mis habilidades técnicas",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "database": "Base de datos",
+  "testing": "Testing",
+  "versionControl": "Control de versiones",
+  "operativeSystem": "OS",
+  "tools": "Herramientas",
+  "languajes": "Lenguajes",
+
   "whatsAppMessage": "Escribe%20tu%20pregunta,%20te%20responderé%20a%20la%20brevedad.",
   "copyright": "© BMG. Todos los derechos reservados.",
 

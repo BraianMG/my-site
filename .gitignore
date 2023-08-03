@@ -6,6 +6,9 @@
 .env.production
 .swc
 
+# vscode
+.vscode
+
 # dependencies
 /node_modules
 /.pnp
