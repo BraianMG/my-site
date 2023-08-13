@@ -10,8 +10,8 @@
   - [x] Create Hero
   - [x] Create "About Me" section
   - [x] Create "Skills" section
-  - [ ] Create "Qualifications" section __(In progress)__
-  - [ ] Create "Projects" section
+  - [X] Create "Qualifications" section
+  - [ ] Create "Projects" section __(In progress)__
   - [ ] Create "Contact Me" section
 
 - v2:
@@ -19,6 +19,8 @@
   - [ ] Add image in Hero
   - [ ] Add illustrations in "About Me" section
   - [ ] Add icons in "Skills" section
+  - [ ] Add icons in "Qualifications" section
+  - [ ] Add links to certificates in "Qualifications" section
   - [ ] Add color on hover of each technology
   - [ ] Create button to scroll up
 
