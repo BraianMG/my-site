@@ -11,8 +11,8 @@
   - [x] Create "About Me" section
   - [x] Create "Skills" section
   - [X] Create "Qualifications" section
-  - [ ] Create "Projects" section __(In progress)__
-  - [ ] Create "Contact Me" section
+  - [X] Create "Projects" section
+  - [ ] Create "Contact Me" section __(In progress)__
 
 - v2:
   - [ ] Adjust light/dark theme
@@ -21,6 +21,7 @@
   - [ ] Add icons in "Skills" section
   - [ ] Add icons in "Qualifications" section
   - [ ] Add links to certificates in "Qualifications" section
+  - [ ] Add image for AppApacho and Teslo Shop in "Projects" section
   - [ ] Add color on hover of each technology
   - [ ] Create button to scroll up
 
