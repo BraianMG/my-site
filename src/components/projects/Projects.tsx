@@ -32,9 +32,8 @@ export const Projects = () => {
           rowSpacing={3}
         >
           {PROJECTS[currentLanguaje].map((p, i) => (
-            <Grid item>
+            <Grid item key={i}>
               <ProjectCard
-                key={i}
                 image={p.image}
                 title={p.title}
                 description={p.description}
