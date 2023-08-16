@@ -1,10 +1,9 @@
 import React from 'react'
 import styles from './aboutMe.module.scss'
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import useTranslation from 'next-translate/useTranslation'
 import SectionTitle from '../common/SectionTitle'
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined'
-import BMGButton from '../common/BMGButton'
 import BMGSection from '../common/BMGSection'
 
 export const AboutMe = () => {
@@ -49,14 +48,14 @@ export const AboutMe = () => {
             </Typography>
           </Box>
         </Box>
-        <BMGButton
+        <Button
           variant='contained'
           endIcon={<FileDownloadOutlinedIcon />}
           className={styles.downloadButton}
           onClick={downloadCV}
         >
           {t('downloadCV')}
-        </BMGButton>
+        </Button>
       </Box>
     </BMGSection>
   )

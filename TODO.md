@@ -12,18 +12,22 @@
   - [x] Create "Skills" section
   - [X] Create "Qualifications" section
   - [X] Create "Projects" section
-  - [ ] Create "Contact Me" section __(In progress)__
+  - [x] Create "Contact Me" section
 
 - v2:
-  - [ ] Adjust light/dark theme
-  - [ ] Add image in Hero
+  - [ ] Show hamburger menu before a jump is generated in the Navbar __(In progress)__
+  - [ ] Add image in Hero 
   - [ ] Add illustrations in "About Me" section
   - [ ] Add icons in "Skills" section
+  - [ ] Increase accordion border radius in "Skills" section
+  - [ ] Add color on hover of each technology in "Skills" section
   - [ ] Add icons in "Qualifications" section
   - [ ] Add links to certificates in "Qualifications" section
   - [ ] Add image for AppApacho and Teslo Shop in "Projects" section
-  - [ ] Add color on hover of each technology
+  - [ ] Add feedback on successful form submission in "Contact" section
+  - [ ] Send message to backend and save to database in "Contact" section
   - [ ] Create button to scroll up
+  - [ ] Adjust light/dark theme
 
 - v3:
   - [ ] Get information from a database

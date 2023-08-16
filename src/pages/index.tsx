@@ -2,6 +2,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { Layout } from '../components/layout/Layout'
 import { AboutMe, FullScreenLoading, Projects, Qualifications, Skills, SkillsWithVerticalTabs } from '../components'
 import useTranslation from 'next-translate/useTranslation'
+import { Contact } from '@/components/contact/Contact'
 
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
@@ -13,8 +14,7 @@ const Home: NextPage = () => {
         <Skills />
         <Qualifications />
         <Projects />
-        <p>CONTENT NOT IMPLEMENTED</p>
-        <FullScreenLoading />
+        <Contact />
       </>
     </Layout>
   )

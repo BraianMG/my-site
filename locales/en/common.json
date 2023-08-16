@@ -37,6 +37,16 @@
   "education": "Education",
   "work": "Work",
 
+  "contactSubtitle": "Get in touch",
+  "name": "Name",
+  "email": "Email",
+  "project": "Project",
+  "message": "Message",
+  "sendMessage": "Send message",
+  "callMe": "Call me",
+  "location": "Location",
+  "locationDesc": "Madrid, Spain",
+
   "whatsAppMessage": "Write%20your%20question,%20I%20will%20answer%20you%20shortly.",
   "copyright": "© BMG. All right reserved.",
 

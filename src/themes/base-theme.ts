@@ -31,4 +31,33 @@ export const baseTheme: Theme = createTheme({
       ...Objective.style,
     },
   },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          color: theme.palette.common.white,
+          borderRadius: '10px',
+          height: '3rem',
+        }),
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          '& input:-webkit-autofill': {
+            WebkitBoxShadow: `0 0 0 30px ${theme.palette.background.default} inset`,
+            WebkitTextFillColor: theme.palette.text.primary,
+          },
+          '& input:-moz-autofill': {
+            WebkitBoxShadow: `0 0 0 30px ${theme.palette.background.default} inset`,
+            WebkitTextFillColor: theme.palette.text.primary,
+          },
+          '& input-ms-input-autofill': {
+            WebkitBoxShadow: `0 0 0 30px ${theme.palette.background.default} inset`,
+            WebkitTextFillColor: theme.palette.text.primary,
+          },
+        }),
+      },
+    },
+  },
 })

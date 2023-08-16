@@ -37,6 +37,16 @@
   "education": "Educación",
   "work": "Trabajo",
 
+  "contactSubtitle": "Ponerse en contacto",
+  "name": "Nombre",
+  "email": "Email",
+  "project": "Proyecto",
+  "message": "Mensaje",
+  "sendMessage": "Enviar Mensaje",
+  "callMe": "Llámame",
+  "location": "Ubicación",
+  "locationDesc": "Madrid, España",
+
   "whatsAppMessage": "Escribe%20tu%20pregunta,%20te%20responderé%20a%20la%20brevedad.",
   "copyright": "© BMG. Todos los derechos reservados.",
 

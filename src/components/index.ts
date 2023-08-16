@@ -1,5 +1,4 @@
 export * from './aboutMe/AboutMe'
-export * from './common/BMGButton'
 export * from './common/BMGSection'
 export * from './common/SectionTitle'
 export * from './footer/Footer'
