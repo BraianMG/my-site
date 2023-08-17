@@ -15,8 +15,8 @@
   - [x] Create "Contact Me" section
 
 - v2:
-  - [ ] Show hamburger menu before a jump is generated in the Navbar __(In progress)__
-  - [ ] Add image in Hero 
+  - [x] Show hamburger menu before a jump is generated in the Navbar
+  - [ ] Add image in Hero __(In progress)__
   - [ ] Add illustrations in "About Me" section
   - [ ] Add icons in "Skills" section
   - [ ] Increase accordion border radius in "Skills" section

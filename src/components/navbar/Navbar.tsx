@@ -47,7 +47,7 @@ export const Navbar: FC<PropsWithChildren> = props => {
 
           <Box flex={1} />
 
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', md: 'block' } }}>
             {navItems.map(item => (
               <Button
                 key={item.href}
@@ -66,7 +66,7 @@ export const Navbar: FC<PropsWithChildren> = props => {
             color='inherit'
             aria-label='open drawer'
             onClick={toggleSideMenu}
-            sx={{ display: { sm: 'none' } }}
+            sx={{ display: { md: 'none' } }}
           >
             <MenuIcon />
           </IconButton>
