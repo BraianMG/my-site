@@ -6,7 +6,7 @@ import { Box } from '@mui/material'
 
 export const Header = () => {
   return (
-    <Box component='header'>
+    <Box component='header' id="back-to-top-anchor">
       <Navbar />
 
       <SideMenu />

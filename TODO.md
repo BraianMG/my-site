@@ -16,8 +16,8 @@
 
 - v2:
   - [x] Show hamburger menu before a jump is generated in the Navbar
-  - [ ] Create button to scroll up __(In progress)__
-  - [ ] Add image in Hero
+  - [x] Create button to scroll up
+  - [ ] Add image in Hero __(In progress)__
   - [ ] Add illustrations or images in "About Me" section
   - [ ] Add icons in "Skills" section
   - [ ] Update technologies in "Skills" section
