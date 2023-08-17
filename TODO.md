@@ -16,9 +16,11 @@
 
 - v2:
   - [x] Show hamburger menu before a jump is generated in the Navbar
-  - [ ] Add image in Hero __(In progress)__
-  - [ ] Add illustrations in "About Me" section
+  - [ ] Create button to scroll up __(In progress)__
+  - [ ] Add image in Hero
+  - [ ] Add illustrations or images in "About Me" section
   - [ ] Add icons in "Skills" section
+  - [ ] Update technologies in "Skills" section
   - [ ] Increase accordion border radius in "Skills" section
   - [ ] Add color on hover of each technology in "Skills" section
   - [ ] Add icons in "Qualifications" section
@@ -26,7 +28,6 @@
   - [ ] Add image for AppApacho and Teslo Shop in "Projects" section
   - [ ] Add feedback on successful form submission in "Contact" section
   - [ ] Send message to backend and save to database in "Contact" section
-  - [ ] Create button to scroll up
   - [ ] Adjust light/dark theme
 
 - v3:
