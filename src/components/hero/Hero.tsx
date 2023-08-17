@@ -4,6 +4,7 @@ import heroImage from '../../../public/img/cover.jpg'
 import useTranslation from 'next-translate/useTranslation'
 import styles from './hero.module.scss'
 import { SFSportsNightNSAlternate } from '@/themes/base-theme'
+import NextImage from 'next/image'
 
 export const Hero: FC = () => {
   const { t } = useTranslation('common')
@@ -37,6 +38,13 @@ export const Hero: FC = () => {
           mx: 'auto',
         }}
       >
+        <NextImage
+            src='/img/myAvatar.svg'
+            width={200}
+            height={200}
+            alt={t("altMyPhoto")}
+            style={{ objectFit: 'contain', backgroundColor: '#F5BA4B', borderRadius: '100%' }}
+          />
         <Typography
           variant='h1'
           fontSize='2rem'
