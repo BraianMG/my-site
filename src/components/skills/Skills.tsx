@@ -66,7 +66,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.FRONTEND.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -98,7 +98,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.BACKEND.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -129,7 +129,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.DATABASE.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -161,7 +161,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.TESTING.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -194,7 +194,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.VERSION_CONTROL.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -225,7 +225,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.OPERATIVE_SYSTEM.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -256,7 +256,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.TOOLS.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>
@@ -288,7 +288,7 @@ export const Skills = () => {
               >
                 {TECHNOLOGIES.LANGUAJES.map(techName => (
                   <Grid item key={techName}>
-                    <Chip label={techName} clickable />
+                    <Chip label={techName} />
                   </Grid>
                 ))}
               </Grid>

@@ -60,6 +60,16 @@ export const baseTheme: Theme = createTheme({
         }),
       },
     },
+    MuiChip: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          backgroundColor: '#f5ba4b29',
+          ":hover": {
+            backgroundColor: '#f5ba4b3d'
+          }
+        })
+      }
+    },
     MuiTextField: {
       styleOverrides: {
         root: ({ theme }) => ({
