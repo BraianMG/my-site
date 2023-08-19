@@ -1,7 +1,7 @@
 import NextImage from 'next/image'
 import { Box, Chip, Grid } from '@mui/material'
 
-export const LanguajesPanel = () => {
+export const LanguagesPanel = () => {
   return (
     <Box sx={{ width: '100%' }}>
       <Grid

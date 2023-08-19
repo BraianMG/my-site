@@ -11,7 +11,7 @@ import { BackendPanel } from './panels/BackendPanel'
 import { DatabasePanel } from './panels/DatabasePanel'
 import { VersionControlPanel } from './panels/VersionControlPanel'
 import { OperativeSystemPanel } from './panels/OperativeSystemPanel'
-import { LanguajesPanel } from './panels/LanguajesPanel'
+import { LanguagesPanel } from './panels/LanguagesPanel'
 import { TestingPanel } from './panels/TestingPanel'
 import { ToolsPanel } from './panels/ToolsPanel'
 
@@ -82,7 +82,7 @@ export const SkillsWithVerticalTabs = () => {
             aria-controls={`vertical-tabpanel-${5}`}
           />
           <Tab
-            label={t('languajes')}
+            label={t('languages')}
             id={`vertical-tab-${6}`}
             aria-controls={`vertical-tabpanel-${6}`}
           />
@@ -111,7 +111,7 @@ export const SkillsWithVerticalTabs = () => {
           <OperativeSystemPanel />
         </TabPanel>
         <TabPanel value={value} index={6}>
-          <LanguajesPanel />
+          <LanguagesPanel />
         </TabPanel>
         <TabPanel value={value} index={7}>
           <ToolsPanel />

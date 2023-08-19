@@ -263,18 +263,18 @@ export const Skills = () => {
             </AccordionDetails>
           </Accordion>
           <Accordion
-            expanded={expanded === 'languajes'}
-            onChange={handleChange('languajes')}
+            expanded={expanded === 'languages'}
+            onChange={handleChange('languages')}
           >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
-              aria-controls='languajes-content'
-              id='languajes-header'
+              aria-controls='languages-content'
+              id='languages-header'
             >
               <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
                 {/* <LanguagesIcon color='primary' fontSize='small' /> */}
                 <LanguageOutlinedIcon color='primary' fontSize='small' />
-                <Typography variant='body1'>{t('languajes')}</Typography>
+                <Typography variant='body1'>{t('languages')}</Typography>
               </Box>
             </AccordionSummary>
             <AccordionDetails>

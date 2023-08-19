@@ -7,11 +7,11 @@ import BMGSection from '../common/BMGSection'
 import { TabPanel } from '../common/TabPanel'
 import { QualificationsTimeline } from './timelines/QualificationsTimeline'
 import { QUALIFICATIONS } from '@/libs/constants'
-import { Languajes } from '@/libs/enums'
+import { Languages } from '@/libs/enums'
 
 export const Qualifications = () => {
   const { t, lang } = useTranslation('common')
-  const currentLanguaje: Languajes = lang === "es" ? Languajes.ES : Languajes.EN;
+  const currentLanguage: Languages = lang === "es" ? Languages.ES : Languages.EN;
 
   const [value, setValue] = useState(0)
 
@@ -43,11 +43,11 @@ export const Qualifications = () => {
       </Box>
       <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
         <TabPanel value={value} index={0}>
-          <QualificationsTimeline qualifications={QUALIFICATIONS.WORK[currentLanguaje]} />
+          <QualificationsTimeline qualifications={QUALIFICATIONS.WORK[currentLanguage]} />
         </TabPanel>
         <TabPanel value={value} index={1}>
           <QualificationsTimeline
-            qualifications={QUALIFICATIONS.EDUCATION[currentLanguaje]}
+            qualifications={QUALIFICATIONS.EDUCATION[currentLanguage]}
           />
         </TabPanel>
       </Box>

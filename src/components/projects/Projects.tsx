@@ -4,13 +4,13 @@ import { Box, Grid, Typography } from '@mui/material'
 import useTranslation from 'next-translate/useTranslation'
 import SectionTitle from '../common/SectionTitle'
 import BMGSection from '../common/BMGSection'
-import { Languajes } from '@/libs/enums'
+import { Languages } from '@/libs/enums'
 import { ProjectCard } from './projectCard/ProjectCard'
 import { PROJECTS } from '@/libs/constants'
 
 export const Projects = () => {
   const { t, lang } = useTranslation('common')
-  const currentLanguaje: Languajes = lang === 'es' ? Languajes.ES : Languajes.EN
+  const currentLanguage: Languages = lang === 'es' ? Languages.ES : Languages.EN
 
   const [value, setValue] = useState(0)
 
@@ -31,7 +31,7 @@ export const Projects = () => {
           columnSpacing={1}
           rowSpacing={3}
         >
-          {PROJECTS[currentLanguaje].map((p, i) => (
+          {PROJECTS[currentLanguage].map((p, i) => (
             <Grid item key={i}>
               <ProjectCard
                 image={p.image}
