@@ -14,6 +14,18 @@ import {
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import { TECHNOLOGIES } from '@/libs/constants'
+import {
+  BackendIcon,
+  DatabaseIcon,
+  FrontendIcon,
+  LanguagesIcon,
+  OSIcon,
+  TestingIcon,
+  ToolsIcon,
+  VersionedIcon,
+} from '../icons'
+import ScienceOutlinedIcon from '@mui/icons-material/ScienceOutlined'
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
 
 export const Skills = () => {
   const { t } = useTranslation('common')
@@ -40,7 +52,10 @@ export const Skills = () => {
               aria-controls='frontend-content'
               id='frontend-header'
             >
-              <Typography variant='body1'>{t('frontend')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <FrontendIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('frontend')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -67,7 +82,10 @@ export const Skills = () => {
               aria-controls='backend-content'
               id='backend-header'
             >
-              <Typography variant='body1'>{t('backend')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <BackendIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('backend')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -95,7 +113,10 @@ export const Skills = () => {
               aria-controls='database-content'
               id='database-header'
             >
-              <Typography variant='body1'>{t('database')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <DatabaseIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('database')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -123,7 +144,11 @@ export const Skills = () => {
               aria-controls='testing-content'
               id='testing-header'
             >
-              <Typography variant='body1'>{t('testing')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                {/* <TestingIcon color='primary' fontSize='small' /> */}
+                <ScienceOutlinedIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('testing')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -153,10 +178,13 @@ export const Skills = () => {
               aria-controls='versionControl-content'
               id='versionControl-header'
             >
-              <Typography variant='body1'>{t('versionControl')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <VersionedIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('versionControl')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
-            <Grid
+              <Grid
                 container
                 // direction='row'
                 justifyContent='space-evenly'
@@ -181,10 +209,13 @@ export const Skills = () => {
               aria-controls='operativeSystem-content'
               id='operativeSystem-header'
             >
-              <Typography variant='body1'>{t('operativeSystem')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <OSIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('operativeSystem')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
-            <Grid
+              <Grid
                 container
                 // direction='row'
                 justifyContent='space-evenly'
@@ -209,10 +240,13 @@ export const Skills = () => {
               aria-controls='tools-content'
               id='tools-header'
             >
-              <Typography variant='body1'>{t('tools')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                <ToolsIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('tools')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
-            <Grid
+              <Grid
                 container
                 // direction='row'
                 justifyContent='space-evenly'
@@ -237,10 +271,14 @@ export const Skills = () => {
               aria-controls='languajes-content'
               id='languajes-header'
             >
-              <Typography variant='body1'>{t('languajes')}</Typography>
+              <Box sx={{ display: 'flex', columnGap: '.5rem' }}>
+                {/* <LanguagesIcon color='primary' fontSize='small' /> */}
+                <LanguageOutlinedIcon color='primary' fontSize='small' />
+                <Typography variant='body1'>{t('languajes')}</Typography>
+              </Box>
             </AccordionSummary>
             <AccordionDetails>
-            <Grid
+              <Grid
                 container
                 // direction='row'
                 justifyContent='space-evenly'

@@ -21,8 +21,8 @@
   - [ ] Add a photo of me in Hero **_(Pending take a new photo...)_**
   - [ ] Add illustrations or images in "About Me" section **_(Pending...)_**
   - [x] Adjust font size and some colors
-  - [ ] Add icons in "Skills" section **_(In progress...)_**
-  - [ ] Update technologies in "Skills" section
+  - [X] Add icons in "Skills" section
+  - [ ] Update technologies in "Skills" section **_(In progress...)_**
   - [ ] Increase accordion border radius in "Skills" section
   - [ ] Add color on hover of each technology in "Skills" section
   - [ ] Add icons in "Qualifications" section
