@@ -41,7 +41,7 @@ export const ProjectCard: FC<Props> = ({
         <></>
       )}
       <CardContent>
-        <Typography gutterBottom variant='h6' component='div'>
+        <Typography gutterBottom variant='body1' sx={{fontWeight: 700, textAlign: 'center'}}>
           {title}
         </Typography>
         <Typography variant='body2' color='text.secondary'>

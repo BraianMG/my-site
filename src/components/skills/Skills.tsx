@@ -40,7 +40,7 @@ export const Skills = () => {
               aria-controls='frontend-content'
               id='frontend-header'
             >
-              <Typography>{t('frontend')}</Typography>
+              <Typography variant='body1'>{t('frontend')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -67,7 +67,7 @@ export const Skills = () => {
               aria-controls='backend-content'
               id='backend-header'
             >
-              <Typography>{t('backend')}</Typography>
+              <Typography variant='body1'>{t('backend')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -95,7 +95,7 @@ export const Skills = () => {
               aria-controls='database-content'
               id='database-header'
             >
-              <Typography>{t('database')}</Typography>
+              <Typography variant='body1'>{t('database')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -123,7 +123,7 @@ export const Skills = () => {
               aria-controls='testing-content'
               id='testing-header'
             >
-              <Typography>{t('testing')}</Typography>
+              <Typography variant='body1'>{t('testing')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Grid
@@ -153,7 +153,7 @@ export const Skills = () => {
               aria-controls='versionControl-content'
               id='versionControl-header'
             >
-              <Typography>{t('versionControl')}</Typography>
+              <Typography variant='body1'>{t('versionControl')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Grid
@@ -181,7 +181,7 @@ export const Skills = () => {
               aria-controls='operativeSystem-content'
               id='operativeSystem-header'
             >
-              <Typography>{t('operativeSystem')}</Typography>
+              <Typography variant='body1'>{t('operativeSystem')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Grid
@@ -209,7 +209,7 @@ export const Skills = () => {
               aria-controls='tools-content'
               id='tools-header'
             >
-              <Typography>{t('tools')}</Typography>
+              <Typography variant='body1'>{t('tools')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Grid
@@ -237,7 +237,7 @@ export const Skills = () => {
               aria-controls='languajes-content'
               id='languajes-header'
             >
-              <Typography>{t('languajes')}</Typography>
+              <Typography variant='body1'>{t('languajes')}</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Grid

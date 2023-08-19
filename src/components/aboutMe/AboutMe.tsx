@@ -20,12 +20,12 @@ export const AboutMe = () => {
     <BMGSection id='about-me' className={styles.container}>
       <SectionTitle>{t('aboutMe')}</SectionTitle>
       <Box>
-        <Typography variant='body1'>{t('aboutMeDescription.0')}</Typography>
-        <Typography variant='body1'>{t('aboutMeDescription.1')}</Typography>
-        <Typography variant='body1'>{t('aboutMeDescription.2')}</Typography>
-        <Typography variant='body1'>{t('aboutMeDescription.3')}</Typography>
-        <Typography variant='body1'>{t('aboutMeDescription.4')}</Typography>
-        <Typography variant='body1'>{t('aboutMeDescription.5')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.0')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.1')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.2')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.3')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.4')}</Typography>
+        <Typography variant='body2'>{t('aboutMeDescription.5')}</Typography>
       </Box>
       <Box className={styles.statisticsAndActions}>
         <Box className={styles.statistics}>

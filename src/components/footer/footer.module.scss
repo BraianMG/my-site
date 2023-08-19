@@ -16,25 +16,23 @@
 .links {
     display: flex;
     flex-direction: column;
-
+    
     a {
         text-transform: none;
+        color: #b4b3af;
     }
 }
 
 .social {
     display: flex;
     justify-content: center;
-
-    a{
-        margin: 10px;
-    }
 }
 
 .copy {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    color: #b4b3af;
 }
 
 @media (min-width: 500px) {

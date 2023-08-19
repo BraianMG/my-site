@@ -31,11 +31,13 @@ export const Qualifications = () => {
             label={t('work')}
             id={`tab-${6}`}
             aria-controls={`tabpanel-${6}`}
+            sx={{fontSize: "1.2rem", width: "50%"}}
           />
           <Tab
             label={t('education')}
             id={`tab-${6}`}
             aria-controls={`tabpanel-${6}`}
+            sx={{fontSize: "1.2rem", width: "50%"}}
           />
         </Tabs>
       </Box>

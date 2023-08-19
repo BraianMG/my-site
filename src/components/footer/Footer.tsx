@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Link, Paper, Typography } from '@mui/material'
+import { Box, Button, IconButton, Link, Paper, Typography } from '@mui/material'
 import { navItems } from '@/libs/constants'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
@@ -31,33 +31,46 @@ export const Footer = () => {
             ))}
           </Box>
           <Box component='div' className={styles.social}>
-            <Link href='tel:+34 611 69 82 60'>
+            <IconButton
+              color='primary'
+              href='tel:+34 611 69 82 60'
+              target='_blank'
+            >
               <PhoneIcon />
-            </Link>
-            <Link
+            </IconButton>
+            <IconButton
+              color='primary'
               href={`https://api.whatsapp.com/send?phone=34611698260&text=${t(
                 'whatsAppMessage'
               )}`}
               target='_blank'
             >
               <WhatsAppIcon />
-            </Link>
-            <Link href='mailto:braian.gonzales77@gmail.com'>
+            </IconButton>
+            <IconButton
+              color='primary'
+              href='mailto:braian.gonzales77@gmail.com'
+            >
               <EmailIcon />
-            </Link>
-            <Link
+            </IconButton>
+            <IconButton
+              color='primary'
               href='https://www.linkedin.com/in/braiangonzales/'
               target='_blank'
             >
               <LinkedInIcon />
-            </Link>
-            <Link href='https://github.com/braianmg' target='_blank'>
+            </IconButton>
+            <IconButton
+              color='primary'
+              href='https://github.com/braianmg'
+              target='_blank'
+            >
               <GitHubIcon />
-            </Link>
+            </IconButton>
           </Box>
         </Box>
         <Box component='div' className={styles.copy}>
-          <Typography>{t('copyright')}</Typography>
+          <Typography variant='body2'>{t('copyright')}</Typography>
         </Box>
       </Box>
     </Paper>
