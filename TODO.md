@@ -22,8 +22,8 @@
   - [ ] Add illustrations or images in "About Me" section **_(Pending...)_**
   - [x] Adjust font size and some colors
   - [X] Add icons in "Skills" section
-  - [ ] Update technologies in "Skills" section **_(In progress...)_**
-  - [ ] Increase accordion border radius in "Skills" section
+  - [x] Update technologies in "Skills" section
+  - [ ] Increase accordion border radius in "Skills" section **_(In progress...)_**
   - [ ] Add color on hover of each technology in "Skills" section
   - [ ] Add icons in "Qualifications" section
   - [ ] Add links to certificates in "Qualifications" section
@@ -31,6 +31,7 @@
   - [ ] Add feedback on successful form submission in "Contact" section
   - [ ] Send message to backend and save to database in "Contact" section
   - [ ] Adjust light/dark theme
+  - [ ] Adjust font and spacing in Hero
 
 - v3:
   - [ ] Get information from a database

@@ -30,8 +30,8 @@ export const languages = [
 ]
 
 export const TECHNOLOGIES = {
-  FRONTEND: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'ReactJS', 'NextJS'],
-  BACKEND: ['NodeJS', 'Express', 'NestJS', 'RESTful', 'GraphQL'],
+  FRONTEND: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Angular'],
+  BACKEND: ['Node', 'Express', 'Fastify', 'Nest', 'RESTful', 'GraphQL'],
   DATABASE: [
     'Microsoft SQL Server',
     'PostgreSQL',
