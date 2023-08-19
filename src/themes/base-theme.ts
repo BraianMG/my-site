@@ -41,6 +41,25 @@ export const baseTheme: Theme = createTheme({
         }),
       },
     },
+    MuiAccordion: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          borderBottomWidth: '1px',
+          borderBottomStyle: 'solid',
+          borderBottomColor: theme.palette.divider,
+          borderRadius: '1rem',
+          ':first-of-type': {
+            borderRadius: '1rem',
+          },
+          ':last-of-type': {
+            borderRadius: '1rem',
+          },
+          ':before': {
+            display: 'none',
+          },
+        }),
+      },
+    },
     MuiTextField: {
       styleOverrides: {
         root: ({ theme }) => ({
