@@ -64,11 +64,18 @@ export const baseTheme: Theme = createTheme({
       styleOverrides: {
         root: ({ theme }) => ({
           backgroundColor: '#f5ba4b29',
-          ":hover": {
-            backgroundColor: '#f5ba4b3d'
-          }
-        })
-      }
+          ':hover': {
+            backgroundColor: '#f5ba4b3d',
+          },
+        }),
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: () => ({
+          borderRadius: '1rem',
+        }),
+      },
     },
     MuiTextField: {
       styleOverrides: {

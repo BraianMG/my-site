@@ -29,7 +29,7 @@ export const ProjectCard: FC<Props> = ({
   videoLink,
 }) => {
   return (
-    <Card sx={{ width: "300px", borderRadius: '1rem' }}>
+    <Card sx={{ width: "300px" }}>
       {image ? (
         <CardMedia
           component='img'

@@ -25,8 +25,8 @@
   - [x] Update technologies in "Skills" section
   - [x] Increase accordion border radius in "Skills" section
   - [x] Add color on hover of each technology in "Skills" section
-  - [ ] Add icons in "Qualifications" section **_(In progress...)_**
-  - [ ] Add links to certificates in "Qualifications" section
+  - [x] Add icons in "Qualifications" section
+  - [ ] Add links to certificates in "Qualifications" section **_(In progress...)_**
   - [ ] Add image for AppApacho and Teslo Shop in "Projects" section
   - [ ] Add feedback on successful form submission in "Contact" section
   - [ ] Send message to backend and save to database in "Contact" section
