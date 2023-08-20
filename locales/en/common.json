@@ -49,6 +49,8 @@
   "callMe": "Call me",
   "location": "Location",
   "locationDesc": "Madrid, Spain",
+  "messageSent": "Message sent",
+  "errorSendingMessage": "Error sending message, try again",
 
   "whatsAppMessage": "Write%20your%20question,%20I%20will%20answer%20you%20shortly.",
   "copyright": "© BMG. All right reserved.",
