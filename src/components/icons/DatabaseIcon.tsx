@@ -9,7 +9,7 @@ export const DatabaseIcon = createSvgIcon(
     strokeWidth='1.5'
     stroke='#F5BA4B'
     fill='none'
-    stroke-linecap='round'
+    strokeLinecap='round'
     stroke-linejoin='round'
   >
     <path stroke='none' d='M0 0h24v24H0z' fill='none' />
