@@ -65,6 +65,11 @@ export const QUALIFICATIONS = {
         description: 'WAKAPI',
         dates: 'Oct 2022 - Jun 2023',
       },
+      {
+        title: 'Desarrollador Full Stack',
+        description: 'Ayscom',
+        dates: 'Jun 2023 - Actualidad',
+      },
     ],
     EN: [
       {
@@ -81,6 +86,11 @@ export const QUALIFICATIONS = {
         title: 'Full Stack Software Engineer',
         description: 'WAKAPI',
         dates: 'Oct 2022 - Jun 2023',
+      },
+      {
+        title: 'Full Stack Developer',
+        description: 'Ayscom',
+        dates: 'Jun 2023 - Present',
       },
     ],
   },
