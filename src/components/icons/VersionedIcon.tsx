@@ -11,7 +11,7 @@ export const VersionedIcon = createSvgIcon(
       stroke='#F5BA4B'
       stroke-linecap='round'
       stroke-linejoin='round'
-      stroke-width='16'
+      strokeWidth='16'
     />
     <circle
       cx='188'
@@ -21,7 +21,7 @@ export const VersionedIcon = createSvgIcon(
       stroke='#F5BA4B'
       stroke-linecap='round'
       stroke-linejoin='round'
-      stroke-width='16'
+      strokeWidth='16'
     />
     <circle
       cx='68'
@@ -31,14 +31,14 @@ export const VersionedIcon = createSvgIcon(
       stroke='#F5BA4B'
       stroke-linecap='round'
       stroke-linejoin='round'
-      stroke-width='16'
+      strokeWidth='16'
     />
     <path
       fill='none'
       stroke='#F5BA4B'
       stroke-linecap='round'
       stroke-linejoin='round'
-      stroke-width='16'
+      strokeWidth='16'
       d='M68,95.99756v8.002a24,24,0,0,0,24.00049,24l72-.00146a24,24,0,0,0,23.99951-24V95.99756'
     />
     <line
@@ -50,7 +50,7 @@ export const VersionedIcon = createSvgIcon(
       stroke='#F5BA4B'
       stroke-linecap='round'
       stroke-linejoin='round'
-      stroke-width='16'
+      strokeWidth='16'
     />
   </svg>,
   'VersionedIcon'
