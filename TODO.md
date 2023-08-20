@@ -30,8 +30,8 @@
   - [ ] Add image for AppApacho and Teslo Shop in "Projects" section **_(Pending take a new photo...)_**
   - [x] Add feedback on successful or error form submission in "Contact" section
   - [ ] Send message to backend and save to database in "Contact" section **_(In progress...)_**
-  - [ ] Adjust light/dark theme
   - [ ] Adjust font and spacing in Hero
+  - [ ] Adjust light/dark theme
 
 - v3:
   - [ ] Get information from a database
