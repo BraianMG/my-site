@@ -11,7 +11,7 @@ export const AboutMe = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a')
-    link.href = `/pdf/${lang}/CV Braian Gonzales.pdf`
+    link.href = `/pdf/cv/${lang}/CV Braian Gonzales.pdf`
     link.target = '_blank'
     link.click()
   }
