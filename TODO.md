@@ -26,9 +26,9 @@
   - [x] Increase accordion border radius in "Skills" section
   - [x] Add color on hover of each technology in "Skills" section
   - [x] Add icons in "Qualifications" section
-  - [ ] Add links to certificates in "Qualifications" section **_(In progress...)_**
-  - [ ] Add image for AppApacho and Teslo Shop in "Projects" section
-  - [ ] Add feedback on successful form submission in "Contact" section
+  - [x] Add links to certificates in "Qualifications" section
+  - [ ] Add image for AppApacho and Teslo Shop in "Projects" section **_(Pending take a new photo...)_**
+  - [ ] Add feedback on successful form submission in "Contact" section **_(In progress...)_**
   - [ ] Send message to backend and save to database in "Contact" section
   - [ ] Adjust light/dark theme
   - [ ] Adjust font and spacing in Hero

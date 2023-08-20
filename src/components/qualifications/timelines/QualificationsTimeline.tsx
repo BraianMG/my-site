@@ -14,6 +14,7 @@ interface Props {
   qualifications: {
     title: string
     description: string
+    certificate?: string
     dates: string
   }[]
 }
@@ -31,6 +32,7 @@ export const QualificationsTimeline: FC<Props> = ({ qualifications }) => {
             <QualificationCard
               title={el.title}
               description={el.description}
+              certificate={el.certificate}
               dates={el.dates}
               justifyRight={i % 2 === 0}
             />

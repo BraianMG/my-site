@@ -3,14 +3,17 @@ import {
   Card,
   CardActionArea,
   CardContent,
+  Link,
   Typography,
 } from '@mui/material'
 import { FC } from 'react'
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined'
+import useTranslation from 'next-translate/useTranslation'
 
 interface Props {
   title: string
   description: string
+  certificate?: string
   dates: string
   justifyRight?: boolean
 }
@@ -18,9 +21,27 @@ interface Props {
 export const QualificationCard: FC<Props> = ({
   title,
   description,
+  certificate,
   dates,
   justifyRight,
 }) => {
+  const { t, lang } = useTranslation('common')
+
+  const getDescription = () => {
+    if (!certificate) {
+      return description
+    } else {
+      return (
+        <>
+          {`${description} - `}
+          <Link href={certificate} target='_blank'>
+            {t('certificate')}
+          </Link>
+        </>
+      )
+    }
+  }
+
   return (
     <Card sx={{ maxWidth: 300, ml: justifyRight ? 'auto' : 'initial' }}>
       <CardActionArea>
@@ -29,7 +50,7 @@ export const QualificationCard: FC<Props> = ({
             {title}
           </Typography>
           <Typography variant='body2' color='text.secondary'>
-            {description}
+            {getDescription()}
           </Typography>
 
           <Box sx={{ display: 'flex', columnGap: '.25rem' }}>
