@@ -36,6 +36,7 @@ export const Hero: FC = () => {
           flexDirection: 'column',
           alignItems: 'center',
           mx: 'auto',
+          rowGap: '.5rem'
         }}
       >
         <NextImage
@@ -51,14 +52,13 @@ export const Hero: FC = () => {
           fontStyle='italic'
           fontWeight='bold'
           textAlign='center'
-          className={styles.name}
           sx={{ span: { color: '#F5BA4B' } }}
         >
           <span className={styles.initial} style={SFSportsNightNSAlternate.style}>B</span>raian{' '}
           <span className={styles.initial} style={SFSportsNightNSAlternate.style}>M</span>ichael{' '}
           <span className={styles.initial} style={SFSportsNightNSAlternate.style}>G</span>onzales
         </Typography>
-        <Typography variant='h2' fontSize='1.5rem' fontWeight='bold' >
+        <Typography variant='h2' fontSize='1.5rem' fontWeight={500} >
           {t('title')}
         </Typography>
       </Box>

@@ -29,8 +29,8 @@
   - [x] Add links to certificates in "Qualifications" section
   - [ ] Add image for AppApacho and Teslo Shop in "Projects" section **_(Pending take a new photo...)_**
   - [x] Add feedback on successful or error form submission in "Contact" section
-  - [ ] Adjust font and spacing in Hero **_(In progress...)_**
-  - [ ] Send message to backend and save to database in "Contact" section
+  - [X] Adjust font and spacing in Hero
+  - [ ] Send message to backend and save to database in "Contact" section **_(In progress...)_**
   - [ ] Adjust light/dark theme
 
 - v3:
