@@ -31,8 +31,8 @@
   - [x] Add feedback on successful or error form submission in "Contact" section
   - [x] Adjust font and spacing in Hero
   - [x] Send message to backend and save to database in "Contact" section
-  - [ ] Save event log in the app **_(In progress...)_**
-  - [ ] Adjust light/dark theme
+  - [x] Save event log in the app
+  - [ ] Adjust light/dark theme **_(In progress...)_**
 
 - v3:
   - [ ] Get information from a database

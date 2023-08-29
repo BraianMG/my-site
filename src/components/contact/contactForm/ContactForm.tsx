@@ -16,6 +16,7 @@ import { useState } from 'react'
 import bmgApi from '@/api/bmgApi'
 import { isAxiosError } from 'axios'
 import { IContactMessage } from '@/interfaces'
+import { LoadingButton } from '@mui/lab'
 
 function SlideTransition(props: SlideProps) {
   return <Slide {...props} direction='left' />
@@ -28,6 +29,7 @@ interface Feedback {
 }
 
 export const ContactForm = () => {
+  const [loading, setLoading] = useState(false)
   const [feedback, setFeedback] = useState<Feedback>({
     open: false,
     message: '',
@@ -46,6 +48,7 @@ export const ContactForm = () => {
     data: IContactMessage
   ) => {
     try {
+      setLoading(true)
       setFeedback({ ...feedback, open: false })
 
       await bmgApi.post('/message', { ...data })
@@ -64,6 +67,8 @@ export const ContactForm = () => {
         message: t('errorSendingMessage'),
         severity: 'error',
       })
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -158,14 +163,16 @@ export const ContactForm = () => {
           />
         </Grid>
         <Grid item xs={12}>
-          <Button
+          <LoadingButton
             type='submit'
             variant='contained'
             endIcon={<SendOutlinedIcon />}
             className={styles.downloadButton}
+            loading={loading}
+            loadingPosition='end'
           >
             {t('sendMessage')}
-          </Button>
+          </LoadingButton>
         </Grid>
       </Grid>
       <Snackbar
