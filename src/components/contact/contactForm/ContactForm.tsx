@@ -8,10 +8,14 @@ import {
   Alert,
   Slide,
   SlideProps,
+  SnackbarCloseReason,
 } from '@mui/material'
 import useTranslation from 'next-translate/useTranslation'
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined'
 import { useState } from 'react'
+import bmgApi from '@/api/bmgApi'
+import { isAxiosError } from 'axios'
+import { IContactMessage } from '@/interfaces'
 
 function SlideTransition(props: SlideProps) {
   return <Slide {...props} direction='left' />
@@ -21,13 +25,6 @@ interface Feedback {
   open: boolean
   message: string
   severity: 'success' | 'error'
-}
-
-interface Form {
-  name: string
-  email: string
-  project?: string
-  message: string
 }
 
 export const ContactForm = () => {
@@ -43,23 +40,26 @@ export const ContactForm = () => {
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm<Form>()
+  } = useForm<IContactMessage>()
 
-  const onSubmit: SubmitHandler<Form> = (data: Form) => {
-    console.log(data)
+  const onSubmit: SubmitHandler<IContactMessage> = async (
+    data: IContactMessage
+  ) => {
+    try {
+      setFeedback({ ...feedback, open: false })
 
-    // TODO: Agregar envío a backend
-    const ok = true
+      await bmgApi.post('/message', { ...data })
 
-    if (ok) {
       reset()
-      onOpenFeedback({
+      setFeedback({
         open: true,
         message: t('messageSent'),
         severity: 'success',
       })
-    } else {
-      onOpenFeedback({
+    } catch (error) {
+      if (isAxiosError(error)) console.error(error.message)
+
+      setFeedback({
         open: true,
         message: t('errorSendingMessage'),
         severity: 'error',
@@ -67,13 +67,9 @@ export const ContactForm = () => {
     }
   }
 
-  const onOpenFeedback = (feedback: Feedback) => {
-    setFeedback(feedback)
-  }
-
   const handleClose = (
     event: React.SyntheticEvent | Event,
-    reason?: string
+    reason?: SnackbarCloseReason
   ) => {
     if (reason === 'clickaway') {
       return
@@ -127,7 +123,7 @@ export const ContactForm = () => {
         </Grid>
         <Grid item xs={12}>
           <Controller
-            name='project'
+            name='projectName'
             control={control}
             defaultValue={''}
             rules={{ required: true }}

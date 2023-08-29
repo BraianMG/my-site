@@ -29,6 +29,12 @@ export const languages = [
   { value: 'en', name: 'ENGLISH' },
 ]
 
+export const API_RESPONSES = {
+  SUCCESS: 'SUCCESS',
+  BAD_REQUEST: 'BAD_REQUEST',
+  INTERNAL_SERVER_ERROR: 'INTERNAL_SERVER_ERROR',
+}
+
 export const TECHNOLOGIES = {
   FRONTEND: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next', 'Vue', 'Angular'],
   BACKEND: ['Node', 'Express', 'Fastify', 'Nest', 'RESTful', 'GraphQL'],
