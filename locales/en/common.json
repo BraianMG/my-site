@@ -49,6 +49,8 @@
   "callMe": "Call me",
   "location": "Location",
   "locationDesc": "Madrid, Spain",
+  "mandatoryField": "This field is required",
+  "invalidEmail": "Enter a valid email",
   "messageSent": "Message sent",
   "errorSendingMessage": "Error sending message, try again",
 

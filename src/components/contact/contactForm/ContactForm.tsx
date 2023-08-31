@@ -102,7 +102,7 @@ export const ContactForm = () => {
                 label={t('name')}
                 fullWidth
                 error={!!errors.name}
-                helperText={errors.name && 'Este campo es obligatorio'}
+                helperText={errors.name && t('mandatoryField')}
                 InputProps={{ sx: { borderRadius: '1rem' } }}
               />
             )}
@@ -120,7 +120,7 @@ export const ContactForm = () => {
                 label={t('email')}
                 fullWidth
                 error={!!errors.email}
-                helperText={errors.email && 'Ingrese un email válido'}
+                helperText={errors.email && t('invalidEmail')}
                 InputProps={{ sx: { borderRadius: '1rem' } }}
               />
             )}
@@ -156,7 +156,7 @@ export const ContactForm = () => {
                 multiline
                 rows={4}
                 error={!!errors.message}
-                helperText={errors.message && 'Este campo es obligatorio'}
+                helperText={errors.message && t('mandatoryField')}
                 InputProps={{ sx: { borderRadius: '1rem' } }}
               />
             )}
