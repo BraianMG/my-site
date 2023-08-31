@@ -21,10 +21,20 @@ interface Props {
 
 export const QualificationsTimeline: FC<Props> = ({ qualifications }) => {
   return (
-    <Timeline position='alternate-reverse'>
+    <Timeline position='alternate-reverse' sx={{ p: '.5rem 0' }}>
       {qualifications.map((el, i) => (
-        <TimelineItem key={i}>
-          <TimelineSeparator>
+        <TimelineItem
+          key={i}
+          sx={{
+            '::before': {
+              p: 0,
+            },
+            '& :last-child': {
+              p: 0,
+            },
+          }}
+        >
+          <TimelineSeparator sx={{ mx: '.5rem' }}>
             <TimelineDot color='primary' />
             <TimelineConnector sx={{ bgcolor: 'primary.main' }} />
           </TimelineSeparator>
