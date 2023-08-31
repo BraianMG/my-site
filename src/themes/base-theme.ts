@@ -35,7 +35,8 @@ export const baseTheme: Theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: ({ theme }) => ({
-          color: theme.palette.common.white,
+          // color: theme.palette.common.white, 
+          color: "#161107", 
           borderRadius: '10px',
           height: '3rem',
         }),
