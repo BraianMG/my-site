@@ -33,9 +33,11 @@
   - [x] Send message to backend and save to database in "Contact" section
   - [x] Save event log in the app
   - [ ] Adjust light/dark theme **_(Pending...)_**
+  - [ ] Fix cards in "Qualifications" section on small screens **_(In progress...)_**
+  - [ ] Fix "error - ESLint: Failed to load config "testing-library" to extend from. Referenced from: /vercel/path0/.eslintrc.json"
 
 - v3:
-  - [ ] Get information from a database **_(In progress...)_**
+  - [ ] Get information from a database 
 
 - v4:
   - [ ] Edit information from the web
