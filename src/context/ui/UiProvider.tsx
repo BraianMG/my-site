@@ -27,7 +27,7 @@ export const UiProvider: FC<Props> = ({ children }) => {
 
   useEffect(() => {
     resolvedTheme === THEME.light
-      ? setCurrentTheme(lightTheme)
+      ? setCurrentTheme(darkTheme) // lightTheme
       : setCurrentTheme(darkTheme)
   }, [resolvedTheme])
 

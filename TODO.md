@@ -32,10 +32,10 @@
   - [x] Adjust font and spacing in Hero
   - [x] Send message to backend and save to database in "Contact" section
   - [x] Save event log in the app
-  - [ ] Adjust light/dark theme **_(In progress...)_**
+  - [ ] Adjust light/dark theme **_(Pending...)_**
 
 - v3:
-  - [ ] Get information from a database
+  - [ ] Get information from a database **_(In progress...)_**
 
 - v4:
   - [ ] Edit information from the web
