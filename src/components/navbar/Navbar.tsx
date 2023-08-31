@@ -6,7 +6,7 @@ import {
   Link,
   Slide,
   Toolbar,
-  useScrollTrigger,
+  // useScrollTrigger,
 } from '@mui/material'
 import { Menu as MenuIcon } from '@mui/icons-material'
 import { navItems } from '@/libs/constants'
@@ -24,7 +24,7 @@ interface Props {
 }
 
 const HideOnScroll: FC<Props> = ({ children }) => {
-  const trigger = useScrollTrigger()
+  const trigger = false; // useScrollTrigger()
 
   return (
     <Slide appear={false} direction='down' in={!trigger}>
