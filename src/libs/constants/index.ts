@@ -9,6 +9,7 @@ import PatientManager from '../../../public/img/projects/patient-manager.png'
 import ToDoList from '../../../public/img/projects/ToDo-List.png'
 import EzShop from '../../../public/img/projects/ezshop.png'
 import BuscadorPokemon from '../../../public/img/projects/buscador-pokemon.png'
+import TesloShop from '../../../public/img/projects/tesloShop.png'
 
 export const THEME = {
   light: 'light',
@@ -191,9 +192,9 @@ export const PROJECTS = {
       videoLink: '',
     },
     {
-      image: '',
+      image: TesloShop.src,
       title: 'Teslo Shop',
-      description: 'Clon de eCommerce Tesla.',
+      description: 'Clon de eCommerce Tesla. Desarrollado con NextJs, Material UI, Axios, SWR, JWT, MongoDB, Mongoose e inegrada con PayPal para pagos y Cloudinary para almacenamiento de imágenes.',
       appLink: '',
       repoLink: 'https://github.com/BraianMG/teslo-shop',
       videoLink: '',
@@ -297,9 +298,9 @@ export const PROJECTS = {
       videoLink: '',
     },
     {
-      image: '',
+      image: TesloShop.src,
       title: 'Teslo Shop',
-      description: 'Tesla eCommerce Clone.',
+      description: 'Tesla eCommerce clone. Developed with NextJs, Material UI, Axios, SWR, JWT, MongoDB, Mongoose and integrated with PayPal for payments and Cloudinary for image storage.',
       appLink: '',
       repoLink: 'https://github.com/BraianMG/teslo-shop',
       videoLink: '',
