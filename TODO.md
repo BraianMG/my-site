@@ -35,6 +35,7 @@
   - [ ] Adjust light/dark theme **_(Pending...)_**
   - [x] Fix cards in "Qualifications" section on small screens
   - [ ] Fix "error - ESLint: Failed to load config "testing-library" to extend from. Referenced from: /vercel/path0/.eslintrc.json" **_(Pending...)_**
+  - [x] Change link to BILAN
 
 - v3:
   - [ ] Get information from a database **_(In progress...)_**
