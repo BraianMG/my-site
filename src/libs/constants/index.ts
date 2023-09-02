@@ -10,6 +10,7 @@ import ToDoList from '../../../public/img/projects/ToDo-List.png'
 import EzShop from '../../../public/img/projects/ezshop.png'
 import BuscadorPokemon from '../../../public/img/projects/buscador-pokemon.png'
 import TesloShop from '../../../public/img/projects/tesloShop.png'
+import AppApacho from '../../../public/img/projects/appApacho.png'
 
 export const THEME = {
   light: 'light',
@@ -168,7 +169,7 @@ export const QUALIFICATIONS = {
 export const PROJECTS = {
   ES: [
     {
-      image: '',
+      image: AppApacho.src,
       title: 'AppApacho',
       description: 'Plataforma para mantener informado y en contacto cercano a familiares de personas mayores en asilos.',
       appLink: '',
@@ -274,7 +275,7 @@ export const PROJECTS = {
   ],
   EN: [
     {
-      image: '',
+      image: AppApacho.src,
       title: 'AppApacho',
       description: 'Platform to keep relatives of elderly people in nursing homes informed and in close contact.',
       appLink: '',

@@ -27,7 +27,7 @@
   - [x] Add color on hover of each technology in "Skills" section
   - [x] Add icons in "Qualifications" section
   - [x] Add links to certificates in "Qualifications" section
-  - [ ] Add image for AppApacho in "Projects" section **_(Pending take photo...)_**
+  - [x] Add image for AppApacho in "Projects" section
   - [x] Add image for Teslo Shop in "Projects" section
   - [x] Add feedback on successful or error form submission in "Contact" section
   - [x] Adjust font and spacing in Hero
