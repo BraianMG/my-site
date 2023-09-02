@@ -200,6 +200,14 @@ export const PROJECTS = {
       videoLink: '',
     },
     {
+      image: MyWebSite.src,
+      title: 'Esta web',
+      description: 'Desarrollado con NextJs, Sass, Material UI, MongoDB y Mongoose.',
+      appLink: '',
+      repoLink: 'https://github.com/BraianMG/my-site',
+      videoLink: '',
+    },
+    {
       image: BILAN.src,
       title: 'BILAN Estados Contables Online',
       description: 'Plataforma para contadores, para obtener Estados Contables.',
@@ -222,14 +230,6 @@ export const PROJECTS = {
       appLink: '',
       repoLink: 'https://github.com/alesitom/reactive-team',
       videoLink: 'https://youtu.be/kYMvk4Har_o',
-    },
-    {
-      image: MyWebSite.src,
-      title: 'Esta web',
-      description: 'Desarrollado con NextJs, Sass y Material UI.',
-      appLink: '',
-      repoLink: 'https://github.com/BraianMG/my-site',
-      videoLink: '',
     },
     {
       image: TravelAgency.src,
@@ -306,6 +306,14 @@ export const PROJECTS = {
       videoLink: '',
     },
     {
+      image: MyWebSite.src,
+      title: 'This web',
+      description: 'Developed with NextJs, Material UI, MongoDB and Mongoose.',
+      appLink: '',
+      repoLink: 'https://github.com/BraianMG/my-site',
+      videoLink: '',
+    },
+    {
       image: BILAN.src,
       title: 'BILAN Online Financial Statements',
       description: 'Platform for accountants, to obtain Financial Statements.',
@@ -328,14 +336,6 @@ export const PROJECTS = {
       appLink: '',
       repoLink: 'https://github.com/alesitom/reactive-team',
       videoLink: 'https://youtu.be/kYMvk4Har_o',
-    },
-    {
-      image: MyWebSite.src,
-      title: 'This web',
-      description: 'Developed with NextJs, Sass and Material UI.',
-      appLink: '',
-      repoLink: 'https://github.com/BraianMG/my-site',
-      videoLink: '',
     },
     {
       image: TravelAgency.src,
