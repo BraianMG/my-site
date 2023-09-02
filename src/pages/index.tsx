@@ -29,9 +29,9 @@ const Home: NextPage = () => {
 
 export default Home
 
-export const getStaticProps: GetStaticProps = async ctx => {
-  return {
-    props: {},
-    revalidate: 62 * 62 * 24,
-  }
-}
+// export const getStaticProps: GetStaticProps = async ctx => {
+//   return {
+//     props: {},
+//     revalidate: 62 * 62 * 24,
+//   }
+// }
