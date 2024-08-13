@@ -171,8 +171,8 @@ export const PROJECTS = {
   ES: [
     {
       image: TicketingMicroservices.src,
-      title: 'Ticketing (Microservicios)',
-      description: 'Proyecto para comprender el funcionamiento de microservicios. Practicar Kubernetes, Docker y submódulos con Git. Explorar Skaffold y NATS',
+      title: 'Ticketing',
+      description: 'Proyecto para comprender el funcionamiento de microservicios. Practicar Kubernetes, Docker y submódulos con Git. Explorar Skaffold y NATS.',
       appLink: '',
       repoLink: 'https://github.com/BraianMG/ticketing-microservices',
       videoLink: '',
@@ -285,7 +285,7 @@ export const PROJECTS = {
   EN: [
     {
       image: TicketingMicroservices.src,
-      title: 'Ticketing (Microservices)',
+      title: 'Ticketing',
       description: 'Project to understand how microservices work. Practice Kubernetes, Docker and submodules with Git. Explore Skaffold and NATS.',
       appLink: '',
       repoLink: 'https://github.com/BraianMG/ticketing-microservices',
