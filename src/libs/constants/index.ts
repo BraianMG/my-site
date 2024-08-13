@@ -11,6 +11,7 @@ import EzShop from '../../../public/img/projects/ezshop.png'
 import BuscadorPokemon from '../../../public/img/projects/buscador-pokemon.png'
 import TesloShop from '../../../public/img/projects/tesloShop.png'
 import AppApacho from '../../../public/img/projects/appApacho.png'
+import TicketingMicroservices from '../../../public/img/projects/ticketingMicroservices.png'
 
 export const THEME = {
   light: 'light',
@@ -169,6 +170,14 @@ export const QUALIFICATIONS = {
 export const PROJECTS = {
   ES: [
     {
+      image: TicketingMicroservices.src,
+      title: 'Ticketing (Microservicios)',
+      description: 'Proyecto para comprender el funcionamiento de microservicios. Practicar Kubernetes, Docker y submódulos con Git. Explorar Skaffold y NATS',
+      appLink: '',
+      repoLink: 'https://github.com/BraianMG/ticketing-microservices',
+      videoLink: '',
+    },
+    {
       image: AppApacho.src,
       title: 'AppApacho',
       description: 'Plataforma para mantener informado y en contacto cercano a familiares de personas mayores en asilos.',
@@ -180,7 +189,7 @@ export const PROJECTS = {
       image: LinkAndBuild.src,
       title: 'Link&Build',
       description: 'Aplicación para conectar personas de todo el mundo y fortalecer el aprendizaje de idiomas.',
-      appLink: 'https://app.linkandbuild.net/',
+      appLink: '',
       repoLink: '',
       videoLink: '',
     },
@@ -274,6 +283,14 @@ export const PROJECTS = {
     },
   ],
   EN: [
+    {
+      image: TicketingMicroservices.src,
+      title: 'Ticketing (Microservices)',
+      description: 'Project to understand how microservices work. Practice Kubernetes, Docker and submodules with Git. Explore Skaffold and NATS.',
+      appLink: '',
+      repoLink: 'https://github.com/BraianMG/ticketing-microservices',
+      videoLink: '',
+    },
     {
       image: AppApacho.src,
       title: 'AppApacho',
