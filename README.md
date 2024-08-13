@@ -37,7 +37,7 @@ This repository contains the source code of my personal website
 
 ### __Used technologies__
 
-- [NodeJs v16.19.0](https://nodejs.org/es/)
+- [NodeJs v20.16.0](https://nodejs.org/es/)
 - [NextJs](https://nextjs.org/)
 - [Jest](https://jestjs.io/)
 - [Testing Library](https://testing-library.com/)
